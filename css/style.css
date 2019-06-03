@@ -1,0 +1,398 @@
+body {
+    background: #F5F8FA;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgb(0, 102, 153);
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.bd-bt {
+    border-bottom: 1px dotted #00336640;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.top-header {
+    border-top: solid 10px #003366;
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h5 {
+    color: rgb(0, 102, 153);
+}
+
+.carousel h2 {
+    font-size: 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.main-box h3 {
+    color: rgb(0, 102, 153);
+}
+
+.main-box {
+    padding: 30px 0;
+}
+
+.main-box div {
+    margin: 10px 0;
+}
+
+.container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    bottom: 20%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background: #0000006e;
+    top: 20%;
+}
+
+.fullBox {
+    width: 100%;
+    background: #ffffff;
+}
+
+.fullBox .card {
+    border: none;
+}
+
+.fullBox .card h4 {
+    color: rgb(0, 102, 153);
+}
+
+.fullBox .card-body {
+    padding: 10px;
+}
+
+.fullBox .card-img-top {
+    border-radius: 0;
+    border-top: 8px solid #003366;
+}
+
+footer {
+    background: #003366;
+    padding: 20px 0;
+}
+
+footer h5 {
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    color: #999999;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content-box {
+    background: #FFFFFF;
+    padding: 40px;
+}
+
+.contact-box {
+    margin: 30px;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
+.nav-menu,
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
+
+.nav-menu li {
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu>li {
+    float: left;
+}
+
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
+    display: block;
+}
+
+.nav-menu ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.nav-menu ul li {
+    min-width: 180px;
+}
+
+/* Nav Menu Arrows */
+.sf-arrows .sf-with-ul {
+    padding-right: 22px;
+}
+
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 8px;
+    margin-top: 1px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105";
+}
+
+/* Nav Meu Container */
+#nav-menu-container {
+    background: #003366;
+    height: 54px;
+}
+
+@media (max-width: 1024px) {
+    #nav-menu-container {
+        display: none;
+    }
+}
+
+/* Nav Meu Styling */
+.nav-menu li {
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    letter-spacing: 0;
+    transition: 0.3s;
+}
+
+.nav-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    outline: none;
+    letter-spacing: 0;
+    transition: 0.3s;
+}
+
+.nav-menu li:hover {
+    background: rgb(0, 102, 153)
+}
+
+.nav-menu>li {
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: rgb(0, 102, 153);
+    min-width: 250px;
+}
+
+.nav-menu ul li {
+    transition: 0.3s;
+}
+
+.nav-menu ul li a {
+    color: #FFFFFF;
+    transition: 0.3s;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.nav-menu ul li:hover>a {
+    color: #003366;
+}
+
+.nav-menu ul ul {
+    margin: 0;
+}
+
+/* Mobile Nav Toggle */
+#mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 4px 20px 0 0;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer;
+}
+
+#mobile-nav-toggle i {
+    color: #555;
+    font-size: 24px;
+}
+
+@media (max-width: 1024px) {
+    #mobile-nav-toggle {
+        display: inline;
+    }
+}
+
+/* Mobile Nav Styling */
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    padding-top: 18px;
+    bottom: 0;
+    z-index: 998;
+    background: rgba(52, 59, 64, 0.9);
+    left: -260px;
+    width: 260px;
+    overflow-y: auto;
+    transition: 0.4s;
+}
+
+#mobile-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#mobile-nav ul li {
+    position: relative;
+}
+
+#mobile-nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 6px 22px 6px 15px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    outline: none;
+    letter-spacing: 0;
+}
+
+#mobile-nav ul li a:hover {
+    color: #fff;
+}
+
+#mobile-nav ul li li {
+    padding-left: 30px;
+}
+
+#mobile-nav ul .menu-has-children i {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+    color: rgb(0, 102, 153);
+}
+
+#mobile-nav ul .menu-item-active {
+    color: rgb(0, 102, 153);
+}
+
+#mobile-body-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(52, 59, 64, 0.9);
+    display: none;
+}
+
+/* Mobile Nav body classes */
+body.mobile-nav-active {
+    overflow: hidden;
+}
+
+body.mobile-nav-active #mobile-nav {
+    left: 0;
+}
+
+body.mobile-nav-active #mobile-nav-toggle i {
+    color: #fff;
+}
